@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/notice_num_sv"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/notice_classification_sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brand_color_3"
+            android:textStyle="bold"
+            android:text="@string/common_txt"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/notice_title_sv"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="게시글 제목입니다 게시글 제목입니다 게시글 제목이라구요 게시글 제목데스요"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/notice_date_sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022.03.17."
+            android:singleLine="false"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/gray"
+            />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/brand_color_3"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
